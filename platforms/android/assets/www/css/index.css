@@ -1,0 +1,88 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    width:100%;
+}
+
+li{
+    width: 100%;
+    height: auto;
+    background: #FFF;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+ul{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    left: 10px;
+}
+
+.poster{
+    height: 100px;
+    display: inline-block;
+}
+
+#film{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+#backdrop{
+    width: 100%;
+    height: auto;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+#poster{
+    width: 30%;
+    height: auto;
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}
+
+#title{
+    position: relative;
+    margin-left: 5%;
+}
+
+#overview{
+    margin: 5%;
+}
+
+#favourite{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: -15px;
+    margin: 0%;
+}
+
+#date{
+    margin-left: 5%;
+}
+
+.menu{
+    margin: 10px 0px;
+}
+
+.ui-content{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}

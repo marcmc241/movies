@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="themes/Blue.min.css">
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+        <link rel="stylesheet" href="js/jquery.mobile.structure-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+
+        <title>MMC movies</title>
+
+    </head>
+    <body>
+            
+        <div data-role="page" id="pageone">
+            <div data-role="panel" id="myPanel1"> 
+              <h2>Movies</h2>
+              <a href="#" class="ui-btn ui-btn" class="panbut" id="pageone1">Popular Movies</a>
+              <a href="#" class="ui-btn ui-btn" class="panbut" id="pagetwo1">Favourite Movies</a>
+            </div>
+          <div data-role="header">
+            <h1>Popular Movies</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <a href="#myPanel1" class="ui-btn ui-btn-inline menu">Menu</a>
+            <ul data-role="listview" id="mylist"></ul>
+          </div>
+
+          <div data-role="footer">
+            <h1>by Marc MC</h1>
+          </div> 
+           
+        </div>
+    
+         <div data-role="page" id="pagetwo">
+             <div data-role="panel" id="myPanel2"> 
+              <h2>Movies</h2>
+              <a href="#" class="ui-btn ui-btn" class="panbut" id="pageone2">Popular Movies</a>
+              <a href="#" class="ui-btn ui-btn" class="panbut" id="pagetwo2">Favourite Movies</a>
+            </div>
+          <div data-role="header">
+            <h1>Favourite Movies</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <a href="#myPanel2" class="ui-btn ui-btn-inline menu">Menu</a>
+              <ul data-role="listview" id="favouriteslist"></ul>
+          </div>
+
+          <div data-role="footer">
+            <h1>by Marc MC</h1>
+          </div> 
+        </div>
+
+        <div data-role="page" id="pagethree">
+          <div data-role="header">
+            <h1>Movie details</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+              <div id="film">
+                <img src="" id="backdrop">
+                <img src="" id="poster">
+                <h2 id="title"></h2>
+                <p id="overview"></p>
+                <h3 id="date"></h3>
+                <a href="#" id="favourite" class="ui-btn ui-icon-star ui-btn-icon-left">Add to Favourites</a>
+                <!--ui-icon-delete-->
+              </div>
+          </div>
+        </div>
+    
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+    </body>
+</html>
